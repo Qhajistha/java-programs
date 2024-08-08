@@ -1,11 +1,13 @@
 package javaq;
 
-public class Box {
+public class multiple {
 	int x=5;
+	int y=10;
 	public static void main(String[]args)
 	{
-		Box myObj = new Box();
+		multiple myObj=new multiple();
 		System.out.println(myObj.x);
+		System.out.println(myObj.y);
 	}
 
 }
